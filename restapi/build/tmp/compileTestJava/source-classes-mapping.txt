@@ -1,0 +1,6 @@
+basicTest/RestAssuredExtract.java
+ basicTest.RestAssuredExtract
+basicTest/RestAssuredBasic.java
+ basicTest.RestAssuredBasic
+basicTest/CRUDProjectTest.java
+ basicTest.CRUDProjectTest

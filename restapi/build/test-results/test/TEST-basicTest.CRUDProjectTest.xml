@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="basicTest.CRUDProjectTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-17T03:25:17" hostname="DESKTOP-2G4RE7M" time="10.215">
+  <properties/>
+  <testcase name="testCreateUserApi()" classname="basicTest.CRUDProjectTest" time="10.215"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://todo.ly/api/user.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Email":"G77@gmail.com","FullName":"Grupo3","Password":"12345"}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=nj1wusoqvdbai2noswxyxnip; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 17 Aug 2021 03:25:09 GMT
+Content-Length: 284
+
+{
+    "Id": 690751,
+    "Email": "G77@gmail.com",
+    "Password": null,
+    "FullName": "Grupo3",
+    "TimeZone": 0,
+    "IsProUser": false,
+    "DefaultProjectId": 3947371,
+    "AddItemMoreExpanded": false,
+    "EditDueDateMoreExpanded": false,
+    "ListSortType": 0,
+    "FirstDayOfWeek": 0,
+    "NewTaskDueDate": -1,
+    "TimeZoneId": "Pacific Standard Time"
+}
+Request method:	PUT
+Request URI:	https://todo.ly/api/user/690751.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic Rzc3QGdtYWlsLmNvbToxMjM0NQ==
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Email":"G77@gmail.com","FullName":"UCB Grupo3","Password":"12345"}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=lg0gn4ig3cdxanjmst0e2wcp; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 17 Aug 2021 03:25:14 GMT
+Content-Length: 288
+
+{
+    "Id": 690751,
+    "Email": "G77@gmail.com",
+    "Password": null,
+    "FullName": "UCB Grupo3",
+    "TimeZone": 0,
+    "IsProUser": false,
+    "DefaultProjectId": 3947371,
+    "AddItemMoreExpanded": false,
+    "EditDueDateMoreExpanded": false,
+    "ListSortType": 0,
+    "FirstDayOfWeek": 0,
+    "NewTaskDueDate": -1,
+    "TimeZoneId": "Pacific Standard Time"
+}
+Request method:	GET
+Request URI:	https://todo.ly/api/user.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic Rzc3QGdtYWlsLmNvbToxMjM0NQ==
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=o2u50irwtre55dpban0w4u5o; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 17 Aug 2021 03:25:15 GMT
+Content-Length: 288
+
+{
+    "Id": 690751,
+    "Email": "G77@gmail.com",
+    "Password": null,
+    "FullName": "UCB Grupo3",
+    "TimeZone": 0,
+    "IsProUser": false,
+    "DefaultProjectId": 3947371,
+    "AddItemMoreExpanded": false,
+    "EditDueDateMoreExpanded": false,
+    "ListSortType": 0,
+    "FirstDayOfWeek": 0,
+    "NewTaskDueDate": -1,
+    "TimeZoneId": "Pacific Standard Time"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

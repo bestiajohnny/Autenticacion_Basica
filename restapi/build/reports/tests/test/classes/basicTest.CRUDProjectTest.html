@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - CRUDProjectTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>CRUDProjectTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/basicTest.html">basicTest</a> &gt; CRUDProjectTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">10.215s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testCreateUserApi()</td>
+<td class="success">10.215s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Request method:	POST
+Request URI:	https://todo.ly/api/user.json
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{&quot;Email&quot;:&quot;G77@gmail.com&quot;,&quot;FullName&quot;:&quot;Grupo3&quot;,&quot;Password&quot;:&quot;12345&quot;}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=nj1wusoqvdbai2noswxyxnip; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 17 Aug 2021 03:25:09 GMT
+Content-Length: 284
+
+{
+    &quot;Id&quot;: 690751,
+    &quot;Email&quot;: &quot;G77@gmail.com&quot;,
+    &quot;Password&quot;: null,
+    &quot;FullName&quot;: &quot;Grupo3&quot;,
+    &quot;TimeZone&quot;: 0,
+    &quot;IsProUser&quot;: false,
+    &quot;DefaultProjectId&quot;: 3947371,
+    &quot;AddItemMoreExpanded&quot;: false,
+    &quot;EditDueDateMoreExpanded&quot;: false,
+    &quot;ListSortType&quot;: 0,
+    &quot;FirstDayOfWeek&quot;: 0,
+    &quot;NewTaskDueDate&quot;: -1,
+    &quot;TimeZoneId&quot;: &quot;Pacific Standard Time&quot;
+}
+Request method:	PUT
+Request URI:	https://todo.ly/api/user/690751.json
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Authorization=Basic Rzc3QGdtYWlsLmNvbToxMjM0NQ==
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{&quot;Email&quot;:&quot;G77@gmail.com&quot;,&quot;FullName&quot;:&quot;UCB Grupo3&quot;,&quot;Password&quot;:&quot;12345&quot;}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=lg0gn4ig3cdxanjmst0e2wcp; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 17 Aug 2021 03:25:14 GMT
+Content-Length: 288
+
+{
+    &quot;Id&quot;: 690751,
+    &quot;Email&quot;: &quot;G77@gmail.com&quot;,
+    &quot;Password&quot;: null,
+    &quot;FullName&quot;: &quot;UCB Grupo3&quot;,
+    &quot;TimeZone&quot;: 0,
+    &quot;IsProUser&quot;: false,
+    &quot;DefaultProjectId&quot;: 3947371,
+    &quot;AddItemMoreExpanded&quot;: false,
+    &quot;EditDueDateMoreExpanded&quot;: false,
+    &quot;ListSortType&quot;: 0,
+    &quot;FirstDayOfWeek&quot;: 0,
+    &quot;NewTaskDueDate&quot;: -1,
+    &quot;TimeZoneId&quot;: &quot;Pacific Standard Time&quot;
+}
+Request method:	GET
+Request URI:	https://todo.ly/api/user.json
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Authorization=Basic Rzc3QGdtYWlsLmNvbToxMjM0NQ==
+				Accept=*/*
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=o2u50irwtre55dpban0w4u5o; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 17 Aug 2021 03:25:15 GMT
+Content-Length: 288
+
+{
+    &quot;Id&quot;: 690751,
+    &quot;Email&quot;: &quot;G77@gmail.com&quot;,
+    &quot;Password&quot;: null,
+    &quot;FullName&quot;: &quot;UCB Grupo3&quot;,
+    &quot;TimeZone&quot;: 0,
+    &quot;IsProUser&quot;: false,
+    &quot;DefaultProjectId&quot;: 3947371,
+    &quot;AddItemMoreExpanded&quot;: false,
+    &quot;EditDueDateMoreExpanded&quot;: false,
+    &quot;ListSortType&quot;: 0,
+    &quot;FirstDayOfWeek&quot;: 0,
+    &quot;NewTaskDueDate&quot;: -1,
+    &quot;TimeZoneId&quot;: &quot;Pacific Standard Time&quot;
+}
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.8</a> at 16 ago. 2021 23:25:28</p>
+</div>
+</div>
+</body>
+</html>
